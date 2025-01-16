@@ -45,24 +45,75 @@ export const common = {
   },
 }
 
-export const en = {
+export const zh = {
   ...common,
-  siteName: "Andrew P Turner",
+  siteName: "小孙同学",
   meta: {
     ...common.meta,
-    title: "Andrew P Turner",
-    slogan: "A digital garden where ideas flourish - from curious seedlings to lasting insights",
-    description: "Voice AI, Atomic Notes, Product Owner, Business Analysis, Bikepacking",
+    title: "小孙同学",
+    slogan: "一个浪漫的理性主义者",
+    description: "读书、摄影、编程、旅行",
+  },
+  navigation: {
+    ...common.navigation,
+    custom: [
+      {
+        label: "影集",
+        link: "https://camlife.cn",
+      },
+    ],
+  },
+  pageMeta: {
+    archive: {
+      title: "归档",
+      description: "小孙同学的所有文章",
+      ogImage: "/images/page-meta/zh/archive.png",
+    },
+    links: {
+      title: "朋友们",
+      description: "小孙同学的和他朋友们",
+      ogImage: "/images/page-meta/zh/links.png",
+    },
+    about: {
+      title: "关于我",
+      description: "小孙同学的自我介绍",
+      ogImage: "/images/page-meta/zh/about.png",
+    },
+  },
+}
+
+export const en = {
+  ...common,
+  siteName: "Guoqi Sun",
+  meta: {
+    ...common.meta,
+    title: "Guoqi Sun",
+    slogan: "A Romantic Rationalist",
+    description: "Reading, Photography, Programming, Traveling",
+  },
+  navigation: {
+    ...common.navigation,
+    custom: [
+      {
+        label: "CamLife",
+        link: "https://camlife.cn",
+      },
+    ],
   },
   pageMeta: {
     archive: {
       title: "All Posts",
-      description: "Here are all the posts within this digital garden",
+      description: "Here are Guoqi Sun's all posts",
       ogImage: "/images/page-meta/en/archive.png",
     },
+    links: {
+      title: "My Friends",
+      description: "Here are Guoqi Sun's friends",
+      ogImage: "/images/page-meta/en/links.png",
+    },
     about: {
-      title: "About",
-      description: "About this website",
+      title: "About Me",
+      description: "Here is Guoqi Sun's self-introduction",
       ogImage: "/images/page-meta/en/about.png",
     },
   },
